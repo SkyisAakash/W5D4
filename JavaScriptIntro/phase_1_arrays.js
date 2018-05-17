@@ -21,3 +21,15 @@ Array.prototype.myTwoSum = function () {
     }
     return result;
 };
+
+Array.prototype.myTranspose = function() {
+  let result = [];
+  for(let i = 0; i < this[0].length; i++){
+      let tempArray = [];
+    for(let j = 0; j < this.length; j++){
+      tempArray.push(this[j][i]);
+    }
+    result.push(tempArray);
+  }
+  return result;
+};
