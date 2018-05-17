@@ -1,0 +1,32 @@
+/* PHASE 4: Footer */
+.footer {
+  background-color: #fff;
+  width: 900px;
+  display: flex;
+  justify-content:space-between;
+  color: #aaa;
+  border-top: #aaa solid 1px;
+  font-size: 14px
+}
+
+.footerList {
+  display: flex
+}
+
+
+.footer div  {
+  padding: 15px 15px
+}
+
+.footerList li  {
+  /* padding-left:15px; */
+  padding: 15px 0px 0px 15px;
+}
+
+.footerList:last-child {
+  padding-right: 15px
+}
+
+.footerList li:hover  {
+  color: #000;
+}
